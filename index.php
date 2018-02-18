@@ -1,6 +1,4 @@
 <?php 
-
-
 function print_error($err){ //print to file
 	try{
 		$status = "successfully printed to file.";
