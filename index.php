@@ -3,7 +3,7 @@ function print_error($err){ //print to file
 	try{
 		$status = "successfully printed to file.";
 		//Set Path for file output
-		$Path =  __DIR__ .'\logs\access-error-log.txt' ; 
+		$Path =  System.getenv("OPENSHIFT_DATA_DIR").'\logs\access-error-log.txt' ; 
 		
 		// Create directory and file if neither exist disk.
 		if(!file_exists(dirname($Path))) {
