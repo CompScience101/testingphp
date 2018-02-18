@@ -18,10 +18,10 @@ function print_error($err){ //print to file
 		fclose($error_log);//close file	access
 	 //catch exceptioncatch
 	}catch(Exception $e) {
-	  echo 'Error printing to file, Error Message: ' .$e->getMessage();
+		$status = 'Error printing to file, Error Message: ' .$e->getMessage();
 	}
 	finally{
-		echo status;
+		echo $status;
 	}
 }
 
