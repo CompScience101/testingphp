@@ -3,7 +3,7 @@
 define('PATH', __DIR__ .'\logs\access-error-log.txt');// WORKS!, authentication from commandline, includes refresh token.
 
 //Print to file
-print_error("hello world 123456");
+print_error("hello world 1234567");
 //Open file 
 open_file();	
 
